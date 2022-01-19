@@ -8,4 +8,10 @@
  git config --global user.email "Email" then Enter
  
  ## step 3 (Clonning project)
+ open the desired project on github then click on the code button on the right side.
+ then you will get the link of that project. Just copy that link and go to your desired place where you want to clone project.
+ in my case i want to clone project on desktop.
+ write the following command for the exact Desktop
+ cd Desktop/
+ 
 
