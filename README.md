@@ -39,6 +39,9 @@
  git remote add origin http link of the repositry
  after remoting we will push our files 
  git push origin master and then enter
+ ######## set 9
+ if you get error realted to un related histories then write the follwoing command
+ git pull origin master  --allow-unrelated-histories then enter
 
  
  
