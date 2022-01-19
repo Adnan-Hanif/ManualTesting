@@ -13,5 +13,9 @@
  in my case i want to clone project on desktop.
  write the following command for the exact Desktop
  cd Desktop/
+ ### steop 4 
+ for intilization of git in the desired folder 
+ open the location of that folder in git bash 
+ then write  git init
  
 
