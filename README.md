@@ -60,5 +60,13 @@
  git checktou -b feature/login
  # for changing brach 
  command: git checkout (desired Branch name)
+ # comparing with branch
+ command:
+ git diff branch_name
+ # deleting branch
+ when should we delete branch?
+ when we merge the branches with master branch. after that we delete the branch for that purpose we will write the folloing command
+ git branch -d Branch_name
+ 
  
 
