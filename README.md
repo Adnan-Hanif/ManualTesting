@@ -33,6 +33,7 @@
  git commit -m "added new files( it will be part of first input field of commit " -m "it is descript(option) it will be the part of 2nd input field of commit"
  for checking status just write
  git status
+ 
  # Pushing files or anything to repositry with an easy way(clonning)
  first make your repositry on github then copy the link of that repositry. go to your local computer then clone repositry on desired location. 
  then open that folder in visual studio or any editer. add files then open bit bash write the same command like
@@ -52,6 +53,12 @@
  git pull origin master  --allow-unrelated-histories then enter
 
  
- 
+ # for checking branch
+ command: git branch
+ # for making new branch
+ Command: git checkout -b (feature/branch.name) ( feature in that case k its a feature of website. for example i am designing login page of website then the command will be
+ git checktou -b feature/login
+ # for changing brach 
+ command: git checkout (desired Branch name)
  
 
