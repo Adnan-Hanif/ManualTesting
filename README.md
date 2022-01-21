@@ -37,6 +37,7 @@
  # Pushing files or anything to repositry with an easy way(clonning)
  first make your repositry on github then copy the link of that repositry. go to your local computer then clone repositry on desired location. 
  then open that folder in visual studio or any editer. add files then open bit bash write the same command like
+ git init
  git add .
  git commit -m "etc. file added"
  git push origin master 
