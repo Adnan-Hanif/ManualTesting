@@ -53,6 +53,8 @@
  if you get error realted to un related histories then write the follwoing command
  git pull origin master  --allow-unrelated-histories then enter
 
+ # for log
+ Command: git log
  
  # for checking branch
  command: git branch
@@ -71,6 +73,10 @@
  when should we delete branch?
  when we merge the branches with master branch. after that we delete the branch for that purpose we will write the folloing command
  git branch -d Branch_name
+
+ # pull command
+ if you make a file on the remote and you are not getting that file in visual studio or any editor. In that case you have to take latest for that we will write a command
+ git pull origin branch_name
  
  
 
