@@ -90,5 +90,13 @@
  #### git push origin branchName
  
  
+ # Ignoring File
+ if you want to push some of the files from local to remote not all. then you should make a file with the name of .gitignore in visual studio. THen you can write the name of file in it or folder with comment # is use for comment * + extion of log(.log) is use for block file. For example:
+ img folder and there is a file pic.png. for ignoring this file 
+ ### go to .gitignore file then write. /img and save 
+ ### if you have log files and you want to block just write *.log or you want to block just one file of log then just write the name of that file e.g. development.log. A
+ After that same procedure for pushing 
+ 
+ 
  
 
