@@ -55,7 +55,7 @@
 
  # for log
  Command: git log
- 
+
  # for checking branch
  command: git branch
  # for making new branch
@@ -77,6 +77,18 @@
  # pull command
  if you make a file on the remote and you are not getting that file in visual studio or any editor. In that case you have to take latest for that we will write a command
  git pull origin branch_name
+
+ # Conflict
+ if a file is in 1 branch and that same file in the other branch when you will so some changes in both files and save then when you merge them there will be an error (confilicting Error)
+ for resolving it open branch with the help of following command
+ ### git checkout branch_name
+ then go to visual studio in my case. VC will display option like you want to save changes or not or you want to save both. after selecting save that file 
+ then again go to bit bash 
+ again write the following commands
+ #### git add .
+  #### git commit -m "Message" -m "description"
+ #### git push origin branchName
+ 
  
  
 
