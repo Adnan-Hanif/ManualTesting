@@ -37,19 +37,19 @@
  # Pushing files or anything to repositry with an easy way(clonning)
  first make your repositry on github then copy the link of that repositry. go to your local computer then clone repositry on desired location. 
  then open that folder in visual studio or any editer. add files then open bit bash write the same command like
- git init
- git add .
- git commit -m "etc. file added"
- git push origin master 
+ ### git init
+ ### git add .
+ ### git commit -m "etc. file added"
+ ### git push origin master 
  your code will push 
  
- ####### set 8
+ # set 8
  for pushing files from local to remote 
  we will write the follwoing command
  git remote add origin http link of the repositry
  after remoting we will push our files 
  git push origin master and then enter
- ######## set 9
+ # set 9
  if you get error realted to un related histories then write the follwoing command
  git pull origin master  --allow-unrelated-histories then enter
 
