@@ -64,6 +64,9 @@
  # comparing with branch
  command:
  git diff branch_name
+ # mergin branch
+ command: git merge branch_name
+ 
  # deleting branch
  when should we delete branch?
  when we merge the branches with master branch. after that we delete the branch for that purpose we will write the folloing command
